@@ -1,0 +1,11 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Huet"
+  given-names: "Thomas"
+  orcid: "https://orcid.org/0000-0002-1112-6122"
+title: "Usewear"
+version: 0.0.0.9000
+doi: 
+date-released: 
+url: "https://github.com/zoometh/usewear"

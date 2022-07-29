@@ -7,7 +7,7 @@ Uses Plotly and geodiv packages to visualize and compute surface analysis on a C
 Install the R package
 
 ```
-devtools::install_github("eamena-oxford/useweaR")
+devtools::install_github("zoometh/useweaR")
 ```
 
 And load the package

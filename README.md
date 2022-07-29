@@ -1,18 +1,22 @@
-# Use Wear Analysis
+# ***useweaR*** an R package for use-Wear analysis
 
 Uses Plotly and geodiv packages to visualize and compute surface analysis on a Confocal 3D surface
 
-## Source the functions and 3D surface
+## Install and load package
+
+Install the R package
 
 ```
-library(devtools)
-
-source_url("https://raw.githubusercontent.com/zoometh/Rdev/master/3dlithic/R/read_dat.R")
-source_url("https://raw.githubusercontent.com/zoometh/Rdev/master/3dlithic/R/geodiv_surface_analyse.R")
-source_url("https://raw.githubusercontent.com/zoometh/Rdev/master/3dlithic/R/plotly_surface_3d.R")
+devtools::install_github("eamena-oxford/useweaR")
 ```
 
-Read and plot the surface with Plotly
+And load the package
+
+```
+library(useweaR)
+```
+
+## Read and plot the surface with Plotly
 
 ```
 xyz <- read_dat()

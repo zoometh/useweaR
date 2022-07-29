@@ -19,6 +19,8 @@ library(useweaR)
 ## Read and plot the surface with Plotly
 
 ```
+library(dplyr)
+
 xyz <- read_dat()
 plotly_surface_3d(xyz, export.plot = FALSE)
 ```

@@ -1,6 +1,6 @@
 # ***useweaR*** an R package for use-wear analysis
 
-Uses Plotly and geodiv packages to visualize and compute surface analysis on a Confocal 3D surface
+Integrates surface analysis (with [geodiv](https://cran.r-project.org/web/packages/geodiv/index.html)) and interactive 3D visualisation (with [plotly](https://plotly.com/r/)) on 3D confocal microscopy surfaces
 
 ## Install and load package
 

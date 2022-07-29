@@ -1,3 +1,5 @@
 results/
 
 
+^.*\.Rproj$
+^\.Rproj\.user$

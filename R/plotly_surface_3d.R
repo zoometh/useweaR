@@ -27,7 +27,7 @@ plotly_surface_3d <- function(xyz = NA,
                               opacity.markers = 0.3,
                               export.plot = TRUE,
                               xyz.name = "surf3d.html",
-                              dirOut = "C:/Rprojects/Rdev/3dlithic/results/"){
+                              dirOut = paste0(system.file(package = "usewearR"), "/results/")){
 
   # url.www <- "https://raw.githubusercontent.com/zoometh/rockart/main/www/"
   # xyz <- read.csv(paste0(url.www, "/confoc_3d.xyz"), sep = " ", header = F)

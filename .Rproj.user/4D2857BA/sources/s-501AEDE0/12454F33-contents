@@ -19,7 +19,7 @@ read_dat <- function(file.path = "https://raw.githubusercontent.com/zoometh/Rdev
                      col.xyz = c(1, 2, 3),
                      xyz.write = FALSE,
                      xyz.name = "confoc_3d.xyz",
-                     dirOut = "C:/Rprojects/Rdev/3dlithic/inst/extdata/"){
+                     dirOut = paste0(system.file(package = "usewearR"), "/results/")){
   file.data <- read.table(file.path, header = FALSE, sep = "")
   xyz <- file.data[, col.xyz]
   colnames(xyz) <- c("X", "Y", "Z")

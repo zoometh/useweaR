@@ -1,7 +1,7 @@
 Package: usewear
 Title: Surface analysis
 Version: 0.0.0.999
-Authors@R: c(person("Thomas","Huet", role = c("aut","cre"), email = c("thomashuet7@gmail.com"), comment=c(ORCID="0000-0002-1112-6122")) 
+Authors@R: c(person("Thomas","Huet", role = c("aut","cre"), email = c("thomashuet7@gmail.com"), comment=c(ORCID="0000-0002-1112-6122"))) 
 Description: Analysis on 3D surface for usewear analysis
 License: CC-BY
 Encoding: UTF-8

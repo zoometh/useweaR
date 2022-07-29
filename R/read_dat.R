@@ -15,11 +15,11 @@
 #' xyz <- read_dat()
 #'
 #' @export
-read_dat <- function(file.path = "https://raw.githubusercontent.com/zoometh/Rdev/master/3dlithic/inst/extdata/confoc_3d.dat",
+read_dat <- function(file.path = paste0(system.file(package = "useweaR"), "/extdata/", "confoc_3d.dat"),
                      col.xyz = c(1, 2, 3),
                      xyz.write = FALSE,
                      xyz.name = "confoc_3d.xyz",
-                     dirOut = paste0(system.file(package = "usewearR"), "/results/")){
+                     dirOut = paste0(system.file(package = "useweaR"), "/results/")){
   file.data <- read.table(file.path, header = FALSE, sep = "")
   xyz <- file.data[, col.xyz]
   colnames(xyz) <- c("X", "Y", "Z")
